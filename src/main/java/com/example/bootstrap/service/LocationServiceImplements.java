@@ -4,9 +4,11 @@ import com.example.bootstrap.entity.Location;
 import com.example.bootstrap.repository.LocationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.example.bootstrap.repository.LocationRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class LocationServiceImplements implements LocationService {
     @Autowired
     LocationRepository locationRepository;
